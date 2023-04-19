@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "mock": "npx json-server -w -p 3333 ./mock/database.json"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -25,6 +26,7 @@
     "@vitejs/plugin-react": "^3.1.0",
     "eslint": "^8.38.0",
     "eslint-plugin-react": "^7.32.2",
+    "json-server": "^0.17.3",
     "typescript": "^4.9.3",
     "vite": "^4.2.0"
   }
